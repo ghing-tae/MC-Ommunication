@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+@charset "utf-8";
+
+body {
+  width: 1000px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 45px;
+  background-color: #323c46;
+  font-size: 18px;
+  color: #ffffff;
+  align-items: center;
+}
+header i {
+  margin: 0 12px 0 12px;
+}
+header span {
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 45px;
+  background-color: #ffffff;
+  font-size: 18px;
+  color: #000000;
+  align-items: center;
+}
+nav i:first-child,
+nav i:last-child {
+  margin: 0 12px 0 12px;
+}
+nav span {
+  font-weight: 500;
+}
+nav span:hover,
+nav i:hover {
+  color: #ff4500;
+}
+
+section {
+  display: flex;
+  background: url(http://www.theconcours.kr/data/apms/background/2020%EC%8A%88%ED%95%84%EB%A0%8C.png)
+    no-repeat center top;
+  width: 1000px;
+  height: 350px;
+  justify-content: center;
+}
+
+.visual {
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: flex-start;
+  background: #ffffff;
+}
+.visual li {
+  position: relative;
+  margin: 10px 5px;
+  width: 300px;
+  height: 500px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+.visual li:hover {
+  border-color: #333;
+}
+.visual_1 li:nth-child(1) div {
+  background: url(http://www.theconcours.kr/data/item/1579754783/thumb-642U7L2p7Lg66W066eI7YG07Zes66CM_300x400.png)
+    no-repeat center top;
+  width: 300px;
+  height: 400px;
+}
+.visual_1 li:nth-child(2) div {
+  background: url(http://www.theconcours.kr/data/item/1579594663/thumb-20207KCc467ZqM7KSR7JWZ7J2M7JWF7L2p7Lg66W07Ys7Iqk7YSw_300x400.jpg)
+    no-repeat center top;
+  width: 300px;
+  height: 400px;
+}
+.visual_1 li:nth-child(3) div {
+  background: url(http://www.theconcours.kr/data/item/1577344404/thumb-7JeY66a87KCE6rWt7J2M7JWF7L2p7Lo2020_300x400.jpg)
+    no-repeat center top;
+  width: 300px;
+  height: 400px;
+}
+.visual_2 li:nth-child(1) div {
+  background: url(http://www.theconcours.kr/data/item/1575619920/thumb-67mE66W07Yis7Jik7KGw_300x400.jpg)
+    no-repeat center top;
+  width: 300px;
+  height: 400px;
+}
+.visual_2 li:nth-child(2) div {
+  background: url(http://www.theconcours.kr/data/item/1575272199/thumb-66qo7J2Y7Iuk6riw7YJ6rCA_300x400.jpg)
+    no-repeat center top;
+  width: 300px;
+  height: 400px;
+}
+.visual_2 li:nth-child(3) div {
+  background: url(http://www.theconcours.kr/data/item/1574406650/thumb-7JWF6riw7L2p7Lg66W0_300x400.jpg)
+    no-repeat center top;
+  width: 300px;
+  height: 400px;
+}
+.visual_3 li:nth-child(1) div {
+  background: url(http://www.theconcours.kr/data/item/1571375614/thumb-7JeY66a87KCE6rWt7J2M7JWF7L2p7Lo_02_300x400.png)
+    no-repeat center top;
+  width: 300px;
+  height: 400px;
+}
+.visual_3 li:nth-child(2) div {
+  background: url(http://www.theconcours.kr/data/item/1570759413/thumb-7ZWc6rWt7Iuk7Jqp7J6s7KaI7J2M7JWF7L2p7Lg66W0_300x400.jpg)
+    no-repeat center top;
+  width: 300px;
+  height: 400px;
+}
+.visual_3 li:nth-child(3) div {
+  background: url(http://www.theconcours.kr/data/item/1569906879/thumb-652866mU66W07JeQ66a01_300x400.jpg)
+    no-repeat center top;
+  width: 300px;
+  height: 400px;
+}
+.visual li dt {
+  padding: 14px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+.visual li dd:first-child {
+  font-size: 12px;
+  color: #8f8f8f;
+}
+.visual li dd:last-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(236, 236, 236);
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.end {
+  display: flex;
+  background: url(http://www.theconcours.kr/data/apms/background/%ED%95%9C%EA%B5%AD%EC%8B%A4%EC%9A%A9%EC%9E%AC%EC%A6%88%EC%9D%8C%EC%95%85%EC%BD%A9%EC%BF%A0%EB%A5%B4.png)
+    no-repeat center top;
+  width: 1000px;
+  height: 350px;
+  justify-content: center;
+}
+
+/* 콩쿨정보페이지 */
+.congcul {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 45px;
+  align-items: center;
+  background-color: #ffffff;
+  font-size: 18px;
+  color: #000000;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.congcul span {
+  margin: 0 10px;
+}
+.congcul span:nth-child(1) {
+  text-align: center;
+  -webkit-text-emphasis-style: filled;
+  text-emphasis-style: filled;
+  height: 45px;
+  font-weight: 600;
+  border-bottom: 2px solid #474747;
+}
+.congcul a:nth-child(2):hover {
+  color: #ff4500;
+}
+
+/* 클래식 입시정보페이지 */
+.important_up {
+  display: flex;
+  width: 1000px;
+  background: url(http://www.theconcours.kr/data/apms/background/%ED%81%B4%EB%9E%98%EC%8B%9D%EC%84%9C%EB%B8%8C%EB%B0%B0%EB%84%8801.png)
+    no-repeat center top;
+  margin: 10px 0;
+}
+
+.piano {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.piano div {
+  width: 80%;
+  height: 6px;
+  background-color: #f0f0f0;
+}
+
+.piano_impor li {
+  justify-content: space-between;
+  font-size: 16px;
+  color: #000000;
+  margin: 10px 30px;
+}
+.piano_impor li div {
+  display: inline-block;
+  float: right;
+}
+.piano_impor li span:hover {
+  color: #ff4500;
+}
+
+.white_box {
+  display: flex;
+  width: 1000px;
+  height: 200px;
+  background-color: #ffffff;
+}
